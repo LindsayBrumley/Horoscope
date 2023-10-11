@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+body {
+  background-color: #2d2a32;
+  color: #b6c649;
+}
+.title {
+  font-size: 55px;
+  font-family: "Young Serif", serif;
+}
+
+.select-sign {
+  font-size: 30px;
+  font-family: "Raleway", sans-serif;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 15px;
+}
+
+.sign {
+  padding: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
