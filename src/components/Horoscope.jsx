@@ -13,7 +13,7 @@ export const Horoscope = ({ sign, timeframe }) => {
       <h2>
         {timeframe}, your horoscope for {sign} is...
       </h2>
-      <p>{horoscope}</p>
+      <p className="horoscope">{horoscope}</p>
     </div>
   );
 };

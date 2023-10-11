@@ -23,7 +23,11 @@ function App() {
       {selectedSign && selectedTimeframe && (
         <Horoscope sign={selectedSign} timeframe={selectedTimeframe} />
       )}
-      <button onClick={restart}>Restart</button>
+      {selectedSign && (
+        <button className="restart-button" onClick={restart}>
+          Restart
+        </button>
+      )}
     </div>
   );
 }

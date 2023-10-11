@@ -39,6 +39,7 @@
 body {
   background-color: #2d2a32;
   color: #b6c649;
+  margin: 15px;
 }
 .title {
   font-size: 55px;
@@ -53,6 +54,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 15px;
+  margin-bottom: 30px;
 }
 
 .sign {
@@ -60,4 +62,48 @@ body {
   font-size: 30px;
   cursor: pointer;
   font-family: "Raleway", sans-serif;
+  background-color: #dda3b2;
+  border-radius: 10px;
+}
+
+.horoscope {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+}
+
+.restart-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  background-color: #dda3b2;
+  color: #2d2a32;
+  border-radius: 7px;
+}
+
+.timeframe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+}
+
+.timeframe-buttons-container {
+  display: flex;
+  justify-content: space-around;
+  padding-left: 200px;
+}
+.timeframe-buttons {
+  height: 55px;
+  width: 200px;
+  font-size: 30px;
+  cursor: pointer;
+  font-family: "Raleway", sans-serif;
+  background-color: #dda3b2;
+  border-radius: 12px;
 }
